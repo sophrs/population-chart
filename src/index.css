@@ -1,0 +1,44 @@
+body {
+  background-color: #fcd5ce;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #e56b6f;
+}
+
+p{  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #e56b6f;
+ }
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
+
+.bar-chart {
+  width: 60rem;
+  height: 50rem;
+  align-self: center;
+}
+
+.drop-down {
+  width: 15rem;
+}
+
+/* New styles for the loading spinner */
+#loading-spinner {
+  position: fixed; /* Fixes the spinner's position relative to the viewport */
+  top: 50%; /* Centers it vertically */
+  left: 50%; /* Centers it horizontally */
+  z-index: 1000; /* Ensures it appears above other content */
+}
