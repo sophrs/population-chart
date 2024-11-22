@@ -6,7 +6,7 @@ This application displays the populations of european countries over the last 50
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -20,7 +20,7 @@ Will run the vite unit tests
 
 ### `npm run cypress:open`
 
-Will run the cypress e2e tests
+Will run the cypress e2e tests ( the app needs to be running on localhost:3000 for tests to run)
 
 ### `npm run build`
 
